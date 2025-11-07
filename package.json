@@ -1,0 +1,28 @@
+{
+  "name": "theme",
+  "displayName": "cyberpunkTheme",
+  "description": "a cyberpunk theme for cyberpunk coding",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "scripts": {
+   "test": "vscode-test"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "max6453",
+        "uiTheme": "vs-dark",
+        "path": "./themes/max6453-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

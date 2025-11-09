@@ -1,8 +1,8 @@
 {
-  "name": "theme",
-  "displayName": "cyberpunkTheme",
-  "description": "a cyberpunk theme for cyberpunk coding",
-  "version": "0.0.1",
+  "name": "mclaren",
+  "displayName": "Mclaren theme",
+  "description": "A Mclaren Formula 1 team based theme for Vscode",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "max6453",
+        "label": "Mclaren 2025",
         "uiTheme": "vs-dark",
         "path": "./themes/max6453-color-theme.json"
       }
